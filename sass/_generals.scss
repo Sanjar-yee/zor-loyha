@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Catamaran", sans-serif;
+}
+
+body {
+    background-image: url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: calc(100% - 10px) 35px;
+}
+
+@media (max-width:950px) {
+    body {
+        background-size: 960px;
+    background-position: calc(50% - 223px) 65px;
+    }
+}
+
+@media (max-width:400px) {
+    body {
+        background-size: 800px;
+    }
+}

@@ -1,0 +1,13 @@
+@mixin primary-btn {
+    padding: 19px 25px;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    background-color: #D22238;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    &:hover {
+        background-color: #aa1829;
+    }
+}

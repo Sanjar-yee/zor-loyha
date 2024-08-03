@@ -1,0 +1,77 @@
+.header-site {
+  margin-top: 24px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.logo-site {
+  margin-right: 234px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  list-style-type: none;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-lang-box {
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.lang-select {
+  border: none;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+.lang-select::before {
+  content: "";
+  display: block;
+  background-image: url(../img/USA-flag.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 25px;
+  height: 15px;
+}
+
+.user-btn {
+  background-color: transparent;
+  border: none;
+  background-image: url(../../img/user-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 39px;
+  height: 39px;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-heading {
+  margin-top: 258px;
+  max-width: 555px;
+  width: 100%;
+  margin-bottom: 37px;
+}
+
+.hero-text {
+  color: #3d3d3d;
+  max-width: 488px;
+  width: 100%;
+}/*# sourceMappingURL=allblocks.css.map */

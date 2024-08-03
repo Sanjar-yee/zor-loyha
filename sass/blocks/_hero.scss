@@ -1,0 +1,85 @@
+.hero {
+    
+}
+
+.hero-heading {
+    margin-top: 258px;
+    max-width: 555px;
+    width: 100%;
+    margin-bottom: 37px;
+}
+.hero-text {
+    color: #3d3d3d;
+    max-width: 488px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.hero-form {
+    max-width: 513px;
+    border: solid 2px #E0E0E0;
+    border-radius: 10px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 348px;
+    input {
+        border: none;
+        
+    }
+}
+.hero-form-btn {
+    @include primary-btn;
+}
+
+@media (max-width:1220px) {
+    .hero-heading {
+        padding-left: 10px;
+    }
+    .hero-text {
+        padding-left: 10px;
+    }
+
+    .hero-form {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:950px) {
+    .hero-heading {
+        margin: auto;
+        margin-top: 570px;
+        text-align: center;
+        
+    }
+    .hero-text {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .hero-form {
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media (max-width:400px) {
+    .hero-heading {
+        font-size: 20px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+    }
+
+    .hero-form {
+        padding: 4px;
+        button {
+            padding: 8px 10px;
+        }
+    }
+}
