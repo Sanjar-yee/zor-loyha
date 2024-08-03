@@ -1,2 +1,1 @@
-# zor-loyha
-# zor-loyha
+Sass loyhasi
